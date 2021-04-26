@@ -16,7 +16,7 @@
 <body>
 	<div class="mb-3">
 		<h1>Welcome, <c:out value="${user.firstName}"/></h1>
-		<a class="btn btn-warning" href="/">Logout</a>
+		<a class="btn btn-warning" href="/logout">Logout</a>
 	</div>	
 </body>
 </html>
